@@ -12,7 +12,7 @@ namespace TestAnimal.Models
         protected bool carnivorous;
         public const int MOOD_HAPPY = 1;
         public const int MOOD_SCARE = 0;
-        protected int mood { get; set; }
+        protected int mood;
         public Animal(bool mammalian, bool carnivorous, int mood)
         {
             this.mammalian = mammalian;
